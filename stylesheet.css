@@ -1,0 +1,200 @@
+
+    body{
+      margin: 0px;
+      padding: 0px;
+      background-color: #f3f2ec;
+      font-family: Prata, Georgia, serif;
+    }
+    span{
+      color: grey;
+    }
+    /*----------------navbar css-----------------------*/
+    .dropdown:hover > .dropdown-menu{
+      display: block;
+    }
+    .nav{
+      background-color:#f3f2ec; 
+    }
+    .nav-item{
+     padding-left: 30px;
+     }
+     .navbar-collapse .navbar-nav .nav-link{
+      color: black;
+     }
+     .navbar-collapse .navbar-nav .nav-link:hover{
+      color: #9A884C;
+     }
+    /*---------------slider css--------------------*/
+     .slider_btn{
+      color: red;
+      border: 1px solid red;
+      margin-top: 4%;
+      border-radius: 5px;
+      padding: 7px;
+    }
+     .slider_btn:hover{
+          color: black;
+          border: 1px solid black;
+    }
+    #carouselExampleCaptions{
+      padding-top: 130px;
+    }
+    .slider_txt{
+      width: 100%;
+      margin-top: 30px;
+      padding: 80px;
+    }
+  .slider_txt h1{
+    font-size: 60px;
+}
+
+     /*---------------first row css--------------------*/
+    .row1{
+        background-color: #e8e6de;
+        padding: 80px;
+         }
+      /* ---------------featured book----------------------*/ 
+     .featured-book {
+            text-align: center;
+            line-height: 50px;
+           }
+     .featured-book  h1 {
+            display: flex;
+            flex-direction: row;
+        }
+     .featured-book h1:before,h1:after {
+          content: "";
+          flex: 1 1;
+          border-bottom: 2px solid #a8a5a5;
+          margin: auto;
+      }
+     /*----------------featured books images---------------*/
+      .images{
+        text-align: center;
+      }
+      .images h4{
+        color:rgb(116, 100, 47);
+
+      }
+     .view li{
+      display: inline;
+      position: relative;
+     }
+     .view li:hover{
+      color:#6c5610;
+     }
+     .fature-img img{
+      border: 25px solid #e8e6de;
+     }
+     .fature-img {
+      position: relative;
+     }
+     .add-card{
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      padding: 9px;
+      width: 100%;
+      display: none;
+    
+     }
+     .fature-img:hover .add-card{
+      display: block;
+     }
+      /*------------------best selling books------------------*/
+      .row4{
+          background-color: #e8e6de;
+          padding: 40px;
+          padding-left: 30px;
+      }
+      .row4 img{
+        height: 300px;
+        width: 300px;
+        
+      }
+    
+    /*---------------------popular book nav-------------------*/
+      .books  li{
+        list-style-type: none;
+        display: inline;
+        padding: 10px;
+      }
+      .books li a{
+        position: relative;
+        text-decoration: none;
+        color: black;
+        }
+      .books a::before{
+          content: '';
+          position: absolute;
+          bottom: -10px;
+          left: 0px;
+          width: 0%;
+          height: 3px;
+          background-color:#9A884C;
+          
+          
+        }
+        .books a:hover::before{
+          width: 100%;
+        }
+      /*----------------Quote of the day---------------------*/
+      .row7{
+        text-align: center;
+        line-height: 40px;
+        font-size: 27px;
+      }
+      /*---------------book with offer------------------------*/
+      .row8{
+              background-color:#e8e6de ;
+              padding: 80px;
+
+      }
+      /*-----------------subscribe-----------------------------*/
+      .row9{
+        background-color:#e8e6de ;
+      }
+      .main .button .btn{
+        color: red;
+        border: 1px solid red;
+        margin: 4%;
+      }
+      .main .button .btn:hover{
+            color: black;
+            border: 1px solid black;
+      }
+      /*---------latest artical-------------------*/
+      .zoom-wrapper{
+        overflow: hidden;
+        cursor:pointer;
+      }
+      .zoom-wrapper img{
+        object-fit: cover;
+        transition: transform 0.8s;
+        height: 100%;
+      }
+      .zoom-wrapper:hover img{
+        transform: scale(1.5);
+      }
+      /*-----------------download-----------------------------*/
+      .row10{
+        background-color:#e8e6de ;
+      }
+      .row10 img{
+        float: right;
+      
+      }
+     
+      
+                 
+      /*---------------------footer---------------------------*/
+      .row11 li{
+        list-style-type: none;
+      }
+      html,body{
+        overflow-x:hidden ;
+      }
+
+  
+
+     

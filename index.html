@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--------- Required meta tags --------->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--------- Bootstrap CSS ------------>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!------------Css Link-------------->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!----------font css file------------>
+  <link rel="stylesheet" type="text/css" href="all.min.css">
+  <!-----------aos library--------------->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>website</title>
+</head>
+<body>
+  <!-------------------Navbar------------------>
+  <div class="nav border-bottom border-1 border-secondary fixed-top" data-spy="scroll" data-target="#myScrollspy"
+    data-offset="20">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid" id="myScrollspy">
+        <a class="navbar-brand" href="#">
+          <div class="logo2">
+             <img src="img/main-logo.png"class="img-fluid">
+          </div>
+         
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav m-2">
+            <li class="nav-item ">
+              <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item  text-danger" href="#" >HOME</a></li>
+                <li><a class="dropdown-item " href="#">ABOUT</a></li>
+                <li><a class="dropdown-item" href="#">STYLES</a></li>
+                <li><a class="dropdown-item" href="#">BLOG</a></li>
+                <li><a class="dropdown-item" href="#">POST SINGLE</a></li>
+                <li><a class="dropdown-item" href="#">OUR STORE</a></li>
+                <li><a class="dropdown-item" href="#">PRODUCT SINGLE</a></li>
+                <li><a class="dropdown-item" href="#">CONTACT</a></li>
+                <li><a class="dropdown-item" href="#">THANK YOU</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section1">FEATURED</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section2">POPULAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section3">OFFER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section4">ARTICLES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section5">DOWNLOAD APP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+   <!-----------------------slider------------------------->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="container">
+   
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="slider_txt">
+              <h1>Life Of The Wild</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo reprehenderit eligendi, impedit ratione quisquam maiores iusto facilis illo unde inventore dignissimos animi a laborum quas, in pariatur similique dicta.</p>
+              <button class="slider_btn">READ ALL ARTICAL
+              <i class="fa-solid fa-arrow-right"></i>
+              </button>
+
+               </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="slider_img">
+              <img src="img/main-banner1.jpg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="slider_txt">
+              <h1>Birds Gonna Be Happy</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo reprehenderit eligendi, impedit ratione quisquam maiores iusto facilis illo unde inventore dignissimos animi a laborum quas, in pariatur similique dicta.</p>
+              <button class="slider_btn">READ ALL ARTICAL
+                <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="slider_img">
+              <img src="img/main-banner2.jpg" class="img-fluid">
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  </div>
+ 
+  
+  <!--------------------------first row--------------------------->
+  <div class="row1" data-aos="fade-up"
+  data-aos-duration="1000" >
+    <div class="container ">
+      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+        <div class="col">
+          <img src="img/client-image1.png" class="img-fluid">
+        </div>
+        <div class="col">
+          <img src="img/client-image2.png" class="img-fluid">
+        </div>
+        <div class="col">
+          <img src="img/client-image3.png" class="img-fluid">
+        </div>
+        <div class="col">
+          <img src="img/client-image4.png" class="img-fluid">
+        </div>
+        <div class="col">
+          <img src="img/client-image5.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------Featured books-------------------------->
+  <div class="featured-book">
+    <div class="main">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-lg-12 col-md-12" id="section1">
+            <span>Some quality items</span>
+            <h1>Featured Books</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------Featured book images --------------------------->
+  <div class="images">
+    <div class="main">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-lg-3 col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-bottom"  >
+            <div class="fature-img">
+            <img src="img/product-item1.jpg" class="img-fluid ">
+            <div class="add-card bg-dark text-white">
+              <button class="btn btn-dark" >ADD TO CARD</button>
+            </div>
+            </div>
+            <div class="card-body">
+              <h4>Simple Way Of Piece Life</h4>
+              <span>Armor Ramsey</span>
+              <h4>$ 40.00</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-bottom"  >
+            <div class="fature-img">
+            <img src="img/product-item2.jpg" class="img-fluid" id="images">
+            <div class="add-card bg-dark ">
+              <button class="btn btn-dark">ADD TO CARD</button>
+            </div>
+            </div>
+            <div class="card-body">
+              <h4>Great Travel At Desert</h4>
+              <span>Sanchit Howdy</span>
+              <h4>$ 38.00</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
+            <div class="fature-img">
+            <img src="img/product-item3.jpg" class="img-fluid" id="images">
+              <div class="add-card bg-dark ">
+                <button class="btn btn-dark">ADD TO CARD</button>
+            </div>
+            </div>
+            <div class="card-body">
+              <h4>The Lady Beauty Scarlett</h4>
+              <span>Arthur Doyle</span>
+              <h4>$ 45.00</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
+            <div class="fature-img">
+            <img src="img/product-item4.jpg" class="img-fluid" id="images">
+            <div class="add-card bg-dark ">
+              <button class="btn btn-dark">ADD TO CARD</button>
+            </div>
+            </div>
+            <div class="card-body">
+              <h4>Once Upon A Time</h4>
+              <span>Klien Marry</span>
+              <h4>$ 35.00</h4>
+            </div>
+          </div>
+          <hr>
+          <div class="view " align="right">
+            <li>View All Product</li>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------best selling books ----------------------------->
+  <div class="row4">
+    <div class="main m-5 ">
+      <div class="container">
+        <div class="row  ">
+          <div class="col-lg-6 col-md-12">
+            <img src="img/main-banner2.jpg" class="img-fluid" >
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <h1>Best<br> Selling<br>Book</h1><br><br>
+            <span>By Timbur Hood</span><br>
+            <h2>Birds Gonna<br>Be Happy</h2><br>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,<br> sed do eiusmod
+              tempor <br> labore et dolore magna aliqua.</p><br>
+            <h4>$ 45.00</h4><br>
+            <div class="view ">
+              <li>Shop It Now</li>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------popular book------------------------->
+  <div class="featured-book ">
+    <div class="main">
+      <div class="container-fluid">
+        <div class="row p-5">
+          <div class="col-lg-12 col-md-12 "id="section2">
+            <span>SOME QUALITY ITEMS</span>
+            <H1>Popular Books</H1>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="books">
+                <li><a href="#">All Genre</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Technonoly</a></li>
+                <li><a href="#">Romantic</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Fictional</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------popular book images--------------------------->
+  <div class="images">
+    <div class="main">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-lg-3 col-md-12">
+            <div class="fature-img">
+            <img src="img/tab-item1.jpg" class="img-fluid">
+            <div class="add-card bg-dark ">
+              <button class="btn btn-dark">ADD TO CARD</button>
+            </div>
+            </div>
+            <div class="card-body">
+              <h4>Portrait Photography</h4>
+              <span>Adam Silber</span>
+              <h4>$ 40.00</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="fature-img">
+            <img src="img/tab-item2.jpg" class="img-fluid" >
+            <div class="add-card bg-dark ">
+              <button class="btn btn-dark">ADD TO CARD</button>
+            </div>
+            </div>
+            <div class="card-body">
+              <h4>Once A Time</h4>
+              <span>klien Marry</span>
+              <h4>$ 35.00</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="fature-img">
+            <img src="img/tab-item3.jpg" class="img-fluid" >
+            <div class="add-card bg-dark ">
+              <button class="btn btn-dark">ADD TO CARD</button>
+            </div>
+            </div>
+            <div class="card-body">
+              <h4>Tips of Simple Lifestyle</h4>
+              <span>Bratt Smith</span>
+              <h4>$ 40.00</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="fature-img">
+            <img src="img/tab-item4.jpg" class="img-fluid">
+            <div class="add-card bg-dark ">
+              <button class="btn btn-dark">ADD TO CARD</button>
+            </div>
+            </div>
+            <div class="card-body">
+              <h4>Just Felt From Outside</h4>
+              <span>Nicole Wilson<span>
+                  <h4>$ 40.00</h4>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-3 col-md-12">
+              <div class="fature-img">
+              <img src="img/tab-item5.jpg" class="img-fluid" >
+              <div class="add-card bg-dark ">
+                <button class="btn btn-dark">ADD TO CARD</button>
+              </div>
+              </div>
+              <div class="card-body">
+                <h4>Peaceful Enlightment</h4>
+                <span>Marmik Lama</span>
+                <h4>$ 40.00</h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <div class="fature-img">
+              <img src="img/tab-item6.jpg" class="img-fluid" >
+              <div class="add-card bg-dark ">
+                <button class="btn btn-dark">ADD TO CARD</button>
+              </div>
+              </div>
+              <div class="card-body">
+                <h4>Great Travel At Desert</h4>
+                <span>Sanchit Howdy</span>
+                <h4>$ 40.00</h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <div class="fature-img">
+              <img src="img/tab-item7.jpg" class="img-fluid" >
+              <div class="add-card bg-dark ">
+                <button class="btn btn-dark">ADD TO CARD</button>
+              </div>
+              </div>
+              <div class="card-body">
+                <h4>Life Among The Pirates</h4>
+                <span>Armor Ramsey</span>
+                <h4>$ 40.00</h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <div class="fature-img">
+              <img src="img/tab-item8.jpg" class="img-fluid" >
+              <div class="add-card bg-dark ">
+                <button class="btn btn-dark">ADD TO CARD</button>
+              </div>
+              </div>
+              <div class="card-body">
+                <h4>Simple Way Of Piece Life</h4>
+                <span>Armor Ramsey</span>
+                <h4>$ 40.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------Quote of the day------------------->
+    <div class="row7">
+      <div class="main">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-lg-12">
+              <h1>Quote of the day</h1>
+              <br>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <span >
+                “The more that you read, the more things <br>you will know. The more that you learn, the<br> more places
+                you’ll go.”<br><br>Dr. Seuss
+              </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------book with offer---------------------->
+    <div class="row8">
+      <div class="main">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-lg-12" id="section3">
+              <span>Grab Your Opportunity</span>
+              <h1>Books With Offer</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="images" >
+      <div class="main">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
+              <img src="img/product-item5.jpg" class="img-fluid" id="images">
+              <div class="card-body">
+                <h4>Simple Way Of Piece Life</h4>
+                <span>Armor Ramsey</span>
+                <h4>$ 40.00</h4>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom"  >
+              <img src="img/product-item6.jpg" class="img-fluid" id="images">
+              <div class="card-body">
+                <h4>Great Travel At Desert</h4>
+                <span>Sanchit Howdy</span>
+                <h4>$ 38.00</h4>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom"  >
+              <img src="img/product-item7.jpg" class="img-fluid" id="images">
+              <div class="card-body">
+                <h4>The Lady Beauty Scarlett</h4>
+                <span>Arthur Doyle</span>
+                <h4>$ 45.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------subscribe------------------------->
+    <div class="row9">
+      <div class="main">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-lg-6 col-md-12">
+              <h1>Subscribe <br>To Our<br>Newsletter</h1>
+            </div>
+            <div class="col-lg-6 col-md-12"data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+              <span>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Quos perferendis earum <br>
+                ut amet pariatur nostrum vel atque<br> fugit nihil fuga obcaecati.</span><BR>
+              <div class="view " align="center">
+                <span>Enter your email</span>
+                <li>SEND</li>
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------Latest artical------------->
+    <div class="row2">
+      <div class="main">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-lg-12 col-md-12" id="section4">
+              <span>READ OUR ARTICLES</span>
+              <h1>Latest Articales</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12"data-aos="zoom-in-right" data-aos-duration="1000">
+            <div class="zoom-wrapper">
+            <img src="img/post-img1.jpg" class="img-fluid">
+          </div>
+            <div class="card-body">
+              <h4>Mar 30,2021</h4>
+              <h6>Reading Book Always Makes The Moments Happy</h6>
+              <hr>
+              <div class="view ">
+                <li>INSPIRATION</li>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-behance"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12" data-aos="zoom-in-right" data-aos-duration="2000">
+            <div class="zoom-wrapper">
+            <img src="img/post-img2.jpg" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h4>Mar 29,2021</h4>
+              <h6>Reading Book Always Makes The Moments Happy</h6>
+              <hr>
+              <div class="view ">
+                <li>INSPIRATION</li>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-behance"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12" data-aos="zoom-in-right" data-aos-duration="2500">
+            <div class="zoom-wrapper">
+            <img src="img/post-img3.jpg" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h4>Mar 27,2021</h4>
+              <h6>Reading Book Always Makes The Moments Happy</h6>
+              <hr>
+              <div class="view ">
+                <li>INSPIRATION</li>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-behance"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button class="btn">READ ALL ARTICAL
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-----------------------Download----------------------------->
+    <div class="row10">
+      <div class="main ">
+        <div class="row p-5">
+          <div class="col-lg-6 col-md-12 p-5" id="section5">
+            <img src="img/device.png" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-12 p-5">
+            <h1>Download Our <br>App Now !</h1>
+            <br>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus nonet
+              psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat ac in suspendisse
+              iaculis.</span>
+              <div class="row pt-5" >
+                <div class="col-lg-6 pt-3">
+                  <img src="img/google-play.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6 pt-3">
+                  <img src="img/app-store.jpg" class="img-fluid">
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------footer---------------------------->
+    <div class="row11 m-5">
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-lg-5 g-1 g-lg-1">
+          <div class="col">
+            <img src="img/main-logo.png" class="img-fluid">
+            <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. </p>
+          </div>
+          <div class="col">
+            <h2>About Us</h2>
+            <ul class="pt-3">
+              <li>vision</li>
+              <li>articles</li>
+              <li>careers</li>
+              <li>service terms</li>
+              <li>donate</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Discover</h2>
+            <ul class="pt-3">
+              <li>Home</li>
+              <li>Books</li>
+              <li>Authors</li>
+              <li>Subjects</li>
+              <li>Advanced Search</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>My Account</h2>
+            <ul class="pt-3">
+              <li>Sign In</li>
+              <li>View Cart</li>
+              <li>My Wishtlist</li>
+              <li>Track My Order</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Help</h2>
+            <ul class="pt-3">
+              <li>Hepl center</li>
+              <li>Report a problem</li>
+              <li>Suggesting edits</li>
+              <li>Contact us</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
